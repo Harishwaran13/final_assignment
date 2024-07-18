@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Selection</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="headclass textp">SELECT YOUR CHOICE</h1>
+    <div class="tabs">
+        <button class="tab" onclick="showCategory('Men')">
+            <img src="images/men.svg" alt="men"><p class="textp">Men</p></button>
+        <button class="tab" onclick="showCategory('Women')"> <img src="images/women.svg" alt="women"><p class="textp">Women</p></button>
+        <button class="tab" onclick="showCategory('Kids')"> <img src="images/kids.svg" alt="kids"><p class="textp">Kids</p></button>
+    </div>
+
+    <div id="Men" class="tab-content"></div>
+    <div id="Women" class="tab-content"></div>
+    <div id="Kids" class="tab-content"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
